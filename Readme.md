@@ -7,7 +7,7 @@ kubeflowのAutoML機能であるkatibを使うためのマニフェスト
 ```yaml
 spec:
 template:
-	metadata:
-		annotations: 
-		sidecar.istio.io/inject: "false"
+    metadata:
+        annotations: 
+        sidecar.istio.io/inject: "false"
 ```
